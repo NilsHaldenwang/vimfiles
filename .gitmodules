@@ -134,3 +134,6 @@
 	path = bundle/zencoding-vim
 	url = git://github.com/mattn/zencoding-vim.git
   ignore = dirty
+[submodule "bundle/mirah-vim"]
+	path = bundle/mirah-vim
+	url = https://github.com/Neurogami/mirah-vim
