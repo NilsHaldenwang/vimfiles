@@ -1,5 +1,5 @@
 " Shortcut to rapidly toggle `set list`
-nmap <leader>l :set list!<CR>
+nmap <leader>sic :set list!<CR>
 
 " Remap CommandT keys, as t is already mapped to something
 " else and takes ages to open
