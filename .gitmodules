@@ -101,27 +101,36 @@
 [submodule "bundle/vim-textobj-user"]
 	path = bundle/vim-textobj-user
 	url = git://github.com/kana/vim-textobj-user.git
+  ignore = dirty
 [submodule "bundle/vim-textobj-rubybloc"]
 	path = bundle/vim-textobj-rubybloc
 	url = git://github.com/nelstrom/vim-textobj-rubyblock.git
+  ignore = dirty
 [submodule "bundle/vim-preview"]
 	path = bundle/vim-preview
 	url = git://github.com/greyblake/vim-preview.git
+  ignore = dirty
 [submodule "bundle/abolish"]
 	path = bundle/abolish
 	url = git://github.com/tpope/vim-abolish.git
+  ignore = dirty
 [submodule "bundle/liftweb"]
 	path = bundle/liftweb
 	url = git://github.com/Shadowfiend/liftweb-vim.git
+  ignore = dirty
 [submodule "bundle/scala"]
 	path = bundle/scala
 	url = git://github.com/akhil/scala-vim-bundle.git
+  ignore = dirty
 [submodule "bundle/grails-vim"]
 	path = bundle/grails-vim
 	url = git://github.com/felipero/grails-vim.git
+  ignore = dirty
 [submodule "bundle/clojure"]
 	path = bundle/clojure
 	url = git://github.com/vim-scripts/VimClojure.git
+  ignore = dirty
 [submodule "bundle/zencoding-vim"]
 	path = bundle/zencoding-vim
 	url = git://github.com/mattn/zencoding-vim.git
+  ignore = dirty
