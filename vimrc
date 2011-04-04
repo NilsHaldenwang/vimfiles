@@ -176,6 +176,7 @@ endfunction
 "indent settings
 set shiftwidth=2
 set softtabstop=2
+set tabstop=2
 set expandtab
 set autoindent
 
@@ -264,42 +265,11 @@ else
     endif
 endif
 
-" PeepOpen uses <Leader>p as well so you will need to redefine it so something
-" else in your ~/.vimrc file, such as:
-" nmap <silent> <Leader>q <Plug>PeepOpen
-
-silent! nmap <silent> <Leader>p :NERDTreeToggle<CR>
-nnoremap <silent> <C-f> :call FindInNERDTree()<CR>
-
-"make <c-l> clear the highlight as well as redraw
-nnoremap <C-L> :nohls<CR><C-L>
-inoremap <C-L> <C-O>:nohls<CR>
-
-"map to bufexplorer
-nnoremap <leader>b :BufExplorer<cr>
-
-"map to CommandT TextMate style finder
-nnoremap <leader>t :CommandT<CR>
-
-"map Q to something useful
-noremap Q gq
-
-"make Y consistent with C and D
-nnoremap Y y$
-
-"bindings for ragtag
-inoremap <M-o>       <Esc>o
-inoremap <C-j>       <Down>
+"ragtag options
 let g:ragtag_global_maps = 1
 
 "mark syntax errors with :signs
 let g:syntastic_enable_signs=1
-
-"key mapping for vimgrep result navigation
-map <A-o> :copen<CR>
-map <A-q> :cclose<CR>
-map <A-j> :cnext<CR>
-map <A-k> :cprevious<CR>
 
 "snipmate setup
 try
@@ -367,25 +337,6 @@ function! s:HighlightLongLines(width)
     endif
 endfunction
 
-"key mapping for window navigation
-map <C-h> <C-w>h
-map <C-j> <C-w>j
-map <C-k> <C-w>k
-map <C-l> <C-w>l
-
-"key mapping for saving file
-nmap <C-s> :w<CR>
-
-"key mapping for tab navigation
-nmap <Tab> gt
-nmap <S-Tab> gT
-
-"Key mapping for textmate-like indentation
-nmap <D-[> <<
-nmap <D-]> >>
-vmap <D-[> <gv
-vmap <D-]> >gv
-
 let ScreenShot = {'Icon':0, 'Credits':0, 'force_background':'#FFFFFF'}
 
 "Enabling Zencoding
@@ -405,3 +356,4 @@ let g:user_zen_settings = {
   \  },
  \}
 
+source <sfile>:h/key_mappings.vim
