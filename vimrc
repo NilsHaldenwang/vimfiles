@@ -24,19 +24,6 @@ set number      "add line numbers
 set showbreak=...
 set wrap linebreak nolist
 
-"mapping for command key to map navigation thru display lines instead
-"of just numbered lines
-vmap <D-j> gj
-vmap <D-k> gk
-vmap <D-4> g$
-vmap <D-6> g^
-vmap <D-0> g^
-nmap <D-j> gj
-nmap <D-k> gk
-nmap <D-4> g$
-nmap <D-6> g^
-nmap <D-0> g^
-
 "add some line space for easy reading
 set linespace=4
 
@@ -356,4 +343,5 @@ let g:user_zen_settings = {
   \  },
  \}
 
+" Source the custom key mappings
 source <sfile>:h/key_mappings.vim

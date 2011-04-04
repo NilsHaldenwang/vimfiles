@@ -23,7 +23,7 @@ inoremap <C-j>   <Down>
 "Show syntastics list of errors
 nmap <Leader>e :Errors<CR><C-j>
 
-"Mapping for selection the last inserted text
+"Mapping for selecting the latest inserted text
 nmap <silent> <Leader>sli `[v`]
 
 " PeepOpen uses <Leader>p as well so you will need to redefine it so something
@@ -66,3 +66,16 @@ nmap <D-[> <<
 nmap <D-]> >>
 vmap <D-[> <gv
 vmap <D-]> >gv
+
+"mapping for command key to map navigation thru display lines instead
+"of just numbered lines
+vmap <D-j> gj
+vmap <D-k> gk
+vmap <D-4> g$
+vmap <D-6> g^
+vmap <D-0> g^
+nmap <D-j> gj
+nmap <D-k> gk
+nmap <D-4> g$
+nmap <D-6> g^
+nmap <D-0> g^
