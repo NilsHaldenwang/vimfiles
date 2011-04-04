@@ -345,3 +345,8 @@ let g:user_zen_settings = {
 
 " Source the custom key mappings
 source <sfile>:h/key_mappings.vim
+
+" Making tabstops and endlines look nice
+set listchars=tab:▸\ ,eol:¬
+highlight NonText guifg=#4a4a59
+highlight SpecialKey guifg=#4a4a59
