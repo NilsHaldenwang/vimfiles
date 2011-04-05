@@ -9,10 +9,13 @@ nmap <silent> <Leader>f :CommandT<CR>
 " invoke rake task and show it's output
 nmap <Leader>r :!rake
 
-"Map CTRL-s in insertmode to save file
+"key mappings for saving file
 imap <C-s> <ESC>:w<CR> 
-"key mapping for saving file
 nmap <C-s> :w<CR>
+
+"Indent the whole file
+nmap <silent> <C-i> mmg=G'm
+imap <silent> <C-i> <Esc> mmg=G'm
 
 " Open new line below/above current line
 inoremap <M-o>   <Esc>o
@@ -79,3 +82,4 @@ nmap <D-k> gk
 nmap <D-4> g$
 nmap <D-6> g^
 nmap <D-0> g^
+
