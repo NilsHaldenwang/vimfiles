@@ -1,5 +1,14 @@
 " Shortcut to rapidly toggle `set list`
-nmap <leader>sic :set list!<CR>
+nmap <Leader>sic :set list!<CR>
+
+" As esc is to far away I would like to quit imode with jj
+inoremap jj <Esc>
+
+" Search with :Ack
+nmap <Leader>a :Ack
+
+" Toggle AutoClose
+nmap <Leader>x <Plug>ToggleAutoCloseMappings
 
 " Remap CommandT keys, as t is already mapped to something
 " else and takes ages to open
@@ -14,8 +23,8 @@ imap <C-s> <ESC>:w<CR>
 nmap <C-s> :w<CR>
 
 "Indent the whole file
-nmap <silent> <C-i> mmg=G'm
-imap <silent> <C-i> <Esc> mmg=G'm
+imap <silent> <F5> <Esc> mmgg=G'm
+nmap <silent> <F5> mmgg=G'm
 
 " Open new line below/above current line
 inoremap <M-o>   <Esc>o
