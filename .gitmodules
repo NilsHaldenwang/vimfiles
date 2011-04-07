@@ -18,10 +18,6 @@
 	path = bundle/NERD_tree
 	url = git://github.com/scrooloose/nerdtree.git
   ignore = dirty
-[submodule "bundle/NERD_commenter"]
-	path = bundle/NERD_commenter
-	url = git://github.com/scrooloose/nerdcommenter.git
-  ignore = dirty
 [submodule "bundle/ragtag"]
 	path = bundle/ragtag
 	url = git://github.com/tpope/vim-ragtag.git
@@ -141,4 +137,8 @@
 [submodule "snippets"]
 	path = snippets
 	url = https://github.com/NilsHaldenwang/snipmate-snippets
+  ignore = dirty
+[submodule "bundle/NERD_commenter"]
+	path = bundle/NERD_commenter
+	url = git@github.com:NilsHaldenwang/nerdcommenter.git
   ignore = dirty
