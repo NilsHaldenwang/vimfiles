@@ -141,3 +141,4 @@
 [submodule "bundle/NERD_commenter"]
 	path = bundle/NERD_commenter
 	url = https://github.com/NilsHaldenwang/nerdcommenter.git
+  ignore = dirty
