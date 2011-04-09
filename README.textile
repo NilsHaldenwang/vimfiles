@@ -1,7 +1,9 @@
 h1. Tweaks by Nils
 
 I forked this from "Fabio Akita":https://github.com/akitaonrails/vimfiles and made some tweaks to fit my personal needs.
-For example I changed <Leader> to ',' and added some more key mappings which are located in key_mappings.vim. But I will probably reorganize the storage of the mappings soon.
+For example I changed <Leader> to ',' and added some more key mappings which are located in key_mappings.vim. But I will probably reorganize the storage of the mappings soon. 
+
+I also added some new submodules like mirah, vim-latex and gist. (see below) 
 
 h1. Vim
 
@@ -20,6 +22,7 @@ h1. Bundled Plugins
 * "cucumber":http://www.vim.org/scripts/script.php?script_id=2973 - support for cucumber features such as syntax highlight, indentation, etc
 * "endwise":http://www.vim.org/scripts/script.php?script_id=2386 - support to close Ruby blocks such as 'if', 'do' with 'end'
 * "fugitive":http://www.vim.org/scripts/script.php?script_id=2975 - support for Git, adding convenient commands such as :Gstatus, :Gread, :Gmove
+* "gist-vim":https://github.com/mattn/gist-vim - nice interface to gist
 * "haml":http://www.vim.org/scripts/script.php?script_id=1773 - syntax highlight for HAML
 * "markdown":http://www.vim.org/scripts/script.php?script_id=1242 - syntax highlight for Markdown
 * "mirah-vim":https://github.com/Neurogami/mirah-vim - script for the "Mirah language":http://www.mirah.org
@@ -111,11 +114,13 @@ You will need these dependencies figured out:
 * Exuberant Ctags (http://ctags.sourceforge.net/)
 * Ncurses-term (in Linux only)
 * Ack (On Ubuntu one needs to install ack-grep for Ack to work)
+* git (for gist-vim)
+* curl (for gist-vim)
 
 In Ubuntu, for example, you will have to do
 
 <pre><code>
-apt-get install exuberant-ctags ncurses-term ack-grep
+apt-get install exuberant-ctags ncurses-term ack-grep curl git
 </code></pre>
 
 In OS X, you can install ctags with homebrew
@@ -128,6 +133,17 @@ On Windows you have to download Ctags and add ctags.exe in your PATH.
 
 Mac OS X and most Linux distros come with Ruby already. If you're in Windows
 look for Luis Lavena's latest Ruby Installer (http://rubyforge.org/projects/rubyinstaller/)
+
+h1. IMPORTANT: Setting up gist-vim
+
+You have to set some global configuration values for git to be able to use gist-vim with your github account:
+
+<pre><code>
+git config --global github.user  your-user-name
+git config --global github.token  your-token
+</code></pre>
+
+To get your token go to "Account Settings -> Account Admin" at github.
 
 h1. IMPORTANT: Command-T
 
