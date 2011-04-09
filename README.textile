@@ -17,6 +17,7 @@ h1. Bundled Plugins
 * "fugitive":http://www.vim.org/scripts/script.php?script_id=2975 - support for Git, adding convenient commands such as :Gstatus, :Gread, :Gmove
 * "haml":http://www.vim.org/scripts/script.php?script_id=1773 - syntax highlight for HAML
 * "markdown":http://www.vim.org/scripts/script.php?script_id=1242 - syntax highlight for Markdown
+* "mirah-vim":https://github.com/Neurogami/mirah-vim - script for the "Mirah language":http://www.mirah.org
 * "NERD_commenter":http://www.vim.org/scripts/script.php?script_id=1218 - support to comment lines of code
 * "NERD_tree":http://www.vim.org/scripts/script.php?script_id=1658 - project pane that you can open with [leader] p
 * "ragtag":http://www.vim.org/scripts/script.php?script_id=1896 - easier way to create tags for html, erb, etc
@@ -27,6 +28,7 @@ h1. Bundled Plugins
 * "syntastic":http://www.vim.org/scripts/script.php?script_id=2736 - checks for syntax errors in many languages
 * "textile":http://www.vim.org/scripts/script.php?script_id=2305 - syntax highlight for Textile
 * "vim-coffee-script":https://github.com/kchmck/vim-coffee-script - syntax highlight for Coffee Script
+* "vim-latex":https://github.com/NilsHaldenwang/vim-latex-suite - nice scripts to work with latex
 * "vim-preview":http://www.vim.org/scripts/script.php?script_id=3344 - [leader] P previews Markdown, Rdoc, Textile, html. Requires Ruby and other gems.
 * "vim-ruby-sinatra":https://github.com/hallison/vim-ruby-sinatra - syntax highlight for Sinatra
 * "vim-ruby":https://github.com/vim-ruby/vim-ruby/wiki - syntax highlight, smart identation, auto-complete for Ruby
@@ -103,11 +105,12 @@ You will need these dependencies figured out:
 * Ruby (for the fuzzy finder plugin)
 * Exuberant Ctags (http://ctags.sourceforge.net/)
 * Ncurses-term (in Linux only)
+* Ack (On Ubuntu one needs to install ack-grep for Ack to work)
 
 In Ubuntu, for example, you will have to do:
 
 <pre><code>
-apt-get install exuberant-ctags ncurses-term
+apt-get install exuberant-ctags ncurses-term ack-grep
 </code></pre>
 
 In OS X, you can install ctags with homebrew
@@ -152,6 +155,7 @@ h2. Learn Vim
 Visit the following sites to learn more about Vim:
 
 * http://vimcasts.org
+* http://vim.wikia.com/wiki/Vim_Tips_Wiki 
 
 There are many sites teaching Vim, if you know of any other that are easy
 to follow for newcomers, let me know.
@@ -162,3 +166,4 @@ h2. Credits
 * All the cool plugins for Rails, Cucumber and more: @timpope
 * Great Command-T plugin by: Wincent
 * Hacks and some snippets: @akitaonrails
+* Some minor additions: @NilsHaldenwang
