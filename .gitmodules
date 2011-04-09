@@ -132,7 +132,7 @@
   ignore = dirty
 [submodule "bundle/vim-latex"]
 	path = bundle/vim-latex
-	url = git://vim-latex.git.sourceforge.net/gitroot/vim-latex/vim-latex
+	url = https://github.com/NilsHaldenwang/vim-latex-suite
   ignore = dirty
 [submodule "snippets"]
 	path = snippets
@@ -145,3 +145,4 @@
 [submodule "bundle/gist"]
 	path = bundle/gist
 	url = https://github.com/mattn/gist-vim.git
+  ignore = dirty

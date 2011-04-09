@@ -5,6 +5,7 @@ let mapleader = ","
 
 "load pathogen managed plugins
 call pathogen#runtime_append_all_bundles()
+"call pathogen#runtime_prepend_subdirectories("bundle/vim-latex/vimfiles/")
 
 "Use Vim settings, rather then Vi settings (much better!).
 "This must be first, because it changes other options as a side effect.
