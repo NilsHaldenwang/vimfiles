@@ -361,3 +361,9 @@ let g:tex_flavor='latex'
 " search in a singe file. This will confuse Latex-Suite. Set your grep
 " program to always generate a file-name.
 set grepprg=grep\ -nH\ $*
+
+" Configuration of the gist plugin
+let g:gist_clip_command = 'xclip -selection clipboard'
+let g:gist_detect_filetype = 1
+let g:gist_open_browser_after_post = 1
+let g:gist_browser_command = 'gnome-open %URL%'
