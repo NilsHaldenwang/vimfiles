@@ -1,6 +1,11 @@
+h1. IMPORTANT
+
+You should read this readme carefully before you start, otherwise there could be issues with some plugins.
+
 h1. Tweaks by Nils
 
 I forked this from "Fabio Akita":https://github.com/akitaonrails/vimfiles and made some tweaks to fit my personal needs.
+
 For example I changed <Leader> to ',' and added some more key mappings which are located in key_mappings.vim. But I will probably reorganize the storage of the mappings soon. 
 
 I also added some new submodules like mirah, vim-latex and gist. (see below) 
