@@ -1,3 +1,8 @@
+h1. Tweaks by Nils
+
+I forked this from "Fabio Akita":https://github.com/akitaonrails/vimfiles and made some tweaks to fit my personal needs.
+For example I changed <Leader> to ',' and added some more key mappings which are located in key_mappings.vim. But I will probably reorganize the storage of the mappings soon.
+
 h1. Vim
 
 It is recommended that you use gVim in either Windows or Linux and MacVim for
@@ -107,7 +112,7 @@ You will need these dependencies figured out:
 * Ncurses-term (in Linux only)
 * Ack (On Ubuntu one needs to install ack-grep for Ack to work)
 
-In Ubuntu, for example, you will have to do:
+In Ubuntu, for example, you will have to do
 
 <pre><code>
 apt-get install exuberant-ctags ncurses-term ack-grep
@@ -154,8 +159,8 @@ h2. Learn Vim
 
 Visit the following sites to learn more about Vim:
 
-* http://vimcasts.org
-* http://vim.wikia.com/wiki/Vim_Tips_Wiki 
+* "http://vimcasts.org":Vimcasts
+* "http://vim.wikia.com/wiki/Vim_Tips_Wiki":VimTipsWiki
 
 There are many sites teaching Vim, if you know of any other that are easy
 to follow for newcomers, let me know.
