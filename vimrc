@@ -3,6 +3,8 @@ filetype off
 
 let mapleader = ","
 
+let g:git_no_map_default=1
+
 "load pathogen managed plugins
 call pathogen#runtime_append_all_bundles()
 "call pathogen#runtime_prepend_subdirectories("bundle/vim-latex/vimfiles/")
