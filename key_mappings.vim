@@ -30,7 +30,7 @@ nmap <silent> <F5> mmgg=G'm
 inoremap <M-o>   <Esc>o
 inoremap <M-S-o> <ESC>O
 
-inoremap <C-j>   <Down>
+"inoremap <C-j>   <Down>
 
 "Show syntastics list of errors
 nmap <Leader>e :Errors<CR><C-j>
@@ -66,6 +66,8 @@ map <A-k> :cprevious<CR>
 "key mapping for window navigation
 map <C-h> <C-w>h
 map <C-j> <C-w>j
+" overwrite vim-latex mapping for <C-J> to <Plug>IMAP_JumpForward
+map <C-J> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
