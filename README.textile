@@ -6,7 +6,7 @@ h1. Tweaks by Nils
 
 I forked this from "Fabio Akita":https://github.com/akitaonrails/vimfiles and made some tweaks to fit my personal needs.
 
-For example I changed <Leader> to ',' and added some more key mappings which are located in key_mappings.vim. But I will probably reorganize the storage of the mappings soon. 
+For example I changed the Leader-Key to ',' and added some more key mappings which are located in key_mappings.vim. But I will probably reorganize the storage of the mappings soon. 
 
 I also added some new submodules like mirah, vim-latex and gist. (see below) 
 
@@ -136,7 +136,7 @@ brew install ctags
 
 On Windows you have to download Ctags and add ctags.exe in your PATH.
 
-Mac OS X and most Linux distros come with Ruby already. If you're in Windows
+Mac OS X and most Linux distros come with Ruby already, though I recommend to install it with the "Ruby Version Manager":https://rvm.beginrescueend.com/ . If you're in Windows
 look for Luis Lavena's latest Ruby Installer (http://rubyforge.org/projects/rubyinstaller/)
 
 h1. IMPORTANT: Setting up gist-vim
@@ -180,9 +180,10 @@ h2. Learn Vim
 
 Visit the following sites to learn more about Vim:
 
-* "http://vimcasts.org":Vimcasts
-* "http://vim.wikia.com/wiki/Vim_Tips_Wiki":VimTipsWiki
-
+* "Vimcasts":http://vimcasts.org
+* "VimTipsWiki":http://vim.wikia.com/wiki/Vim_Tips_Wiki
+* "Fabio Akitas Screencast: Vim on Rails":http://akitaonrails.com/2009/01/04/rails-on-vim-in-english 
+ 
 There are many sites teaching Vim, if you know of any other that are easy
 to follow for newcomers, let me know.
 
