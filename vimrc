@@ -361,7 +361,7 @@ highlight SpecialKey guifg=#4a4a59
 let g:tex_flavor='latex'
 let g:Tex_DefaultTargetFormat='pdf'
 let g:Tex_ViewRule_pdf='gnome-open'
-let g:Tex_CompileRule_pdf='pdflatex -interaction=nonstop $*'
+let g:Tex_CompileRule_pdf='pdflatex -shell-escape -interaction=nonstop $*'
 
 " IMPORTANT: grep will sometimes skip displaying the file name if you
 " search in a singe file. This will confuse Latex-Suite. Set your grep
