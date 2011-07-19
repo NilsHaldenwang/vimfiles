@@ -146,3 +146,6 @@
 	path = bundle/gist
 	url = https://github.com/mattn/gist-vim.git
   ignore = dirty
+[submodule "bundle/vim-jquery"]
+	path = bundle/vim-jquery
+	url = https://github.com/itspriddle/vim-jquery
