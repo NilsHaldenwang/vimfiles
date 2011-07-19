@@ -1,4 +1,4 @@
- "necessary on some Linux distros for pathogen to properly load bundles
+"necessary on some Linux distros for pathogen to properly load bundles
 filetype off
 
 let mapleader = ","
@@ -349,7 +349,7 @@ let g:user_zen_settings = {
  \}
 
 " Source the custom key mappings
-source <sfile>:h/.vim/key_mappings.vim
+source <sfile>:h/key_mappings.vim
 
 " Making tabstops and endlines look nice
 set listchars=tab:▸\ ,eol:¬
