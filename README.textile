@@ -27,8 +27,10 @@ h1. Bundled Plugins
 * "cucumber":http://www.vim.org/scripts/script.php?script_id=2973 - support for cucumber features such as syntax highlight, indentation, etc
 * "endwise":http://www.vim.org/scripts/script.php?script_id=2386 - support to close Ruby blocks such as 'if', 'do' with 'end'
 * "fugitive":http://www.vim.org/scripts/script.php?script_id=2975 - support for Git, adding convenient commands such as :Gstatus, :Gread, :Gmove
+* "FuzzyFinder":https://github.com/vim-scripts/FuzzyFinder - Search your buffer or your open buffers fuzzy.
 * "gist-vim":https://github.com/mattn/gist-vim - nice interface to gist
 * "haml":http://www.vim.org/scripts/script.php?script_id=1773 - syntax highlight for HAML
+* "L9":https://github.com/vim-scripts/L9 - L9 script collection
 * "markdown":http://www.vim.org/scripts/script.php?script_id=1242 - syntax highlight for Markdown
 * "mirah-vim":https://github.com/Neurogami/mirah-vim - script for the "Mirah language":http://www.mirah.org
 * "NERD_commenter":http://www.vim.org/scripts/script.php?script_id=1218 - support to comment lines of code
