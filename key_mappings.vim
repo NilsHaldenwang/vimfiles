@@ -10,10 +10,6 @@ nmap <Leader>a :Ack
 " Toggle AutoClose
 nmap <Leader>x <Plug>ToggleAutoCloseMappings
 
-" Remap CommandT keys, as t is already mapped to something
-" else and takes ages to open
-nmap <silent> <Leader>F :CommandTFlush<CR>
-nmap <silent> <Leader>f :CommandT<CR>
 
 " invoke rake task and show it's output
 nmap <Leader>r :!rake
@@ -94,3 +90,11 @@ nmap <D-4> g$
 nmap <D-6> g^
 nmap <D-0> g^
 
+" Remap CommandT keys, as t is already mapped to something
+" else and takes ages to open
+nmap <silent> <Leader>T :CommandTFlush<CR>
+nmap <silent> <Leader>t :CommandT<CR>
+
+" key mappings for FuzzyFinder
+nmap <silent> <Leader>fl :FufLine<CR>
+nmap <silent> <Leader>fb :FufBuffer<CR>

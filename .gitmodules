@@ -149,9 +149,12 @@
 [submodule "bundle/vim-jquery"]
 	path = bundle/vim-jquery
 	url = https://github.com/itspriddle/vim-jquery
+  ignore = dirty
 [submodule "bundle/FuzzyFinder"]
 	path = bundle/FuzzyFinder
 	url = https://github.com/vim-scripts/FuzzyFinder
+  ignore = dirty
 [submodule "bundle/L9"]
 	path = bundle/L9
 	url = https://github.com/vim-scripts/L9
+  ignore = dirty
