@@ -149,3 +149,6 @@
 [submodule "bundle/vim-jquery"]
 	path = bundle/vim-jquery
 	url = https://github.com/itspriddle/vim-jquery
+[submodule "bundle/FuzzyFinder"]
+	path = bundle/FuzzyFinder
+	url = https://github.com/vim-scripts/FuzzyFinder
