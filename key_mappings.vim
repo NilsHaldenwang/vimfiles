@@ -92,8 +92,8 @@ nmap <D-0> g^
 
 " Remap CommandT keys, as t is already mapped to something
 " else and takes ages to open
-nmap <silent> <Leader>T :CommandTFlush<CR>
-nmap <silent> <Leader>t :CommandT<CR>
+nmap <silent> <Leader>E :CommandTFlush<CR>
+nmap <silent> <Leader>e :CommandT<CR>
 
 " key mappings for FuzzyFinder
 nmap <silent> <Leader>fl :FufLine<CR>
