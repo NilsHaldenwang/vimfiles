@@ -98,3 +98,6 @@ nmap <silent> <Leader>o :CommandT<CR>
 " key mappings for FuzzyFinder
 nmap <silent> <Leader>fl :FufLine<CR>
 nmap <silent> <Leader>fb :FufBuffer<CR>
+
+" mappings for YankRing
+nnoremap <silent> <Leader>yrs :YRShow<CR>
