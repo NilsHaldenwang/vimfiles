@@ -101,3 +101,10 @@ nmap <silent> <Leader>fb :FufBuffer<CR>
 
 " mappings for YankRing
 nnoremap <silent> <Leader>yrs :YRShow<CR>
+
+" mappings for fugitive
+nmap <leader>gs :Gstatus<CR>
+nmap <leader>gc :Gcommit<CR>
+nmap <leader>gw :Gwrite<CR>
+nmap <leader>gr :Gread<CR>
+nmap <leader>gd :Gdiff<CR>
