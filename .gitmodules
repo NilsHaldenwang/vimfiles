@@ -114,10 +114,6 @@
 	path = bundle/scala
 	url = git://github.com/akhil/scala-vim-bundle.git
   ignore = dirty
-[submodule "bundle/grails-vim"]
-	path = bundle/grails-vim
-	url = git://github.com/felipero/grails-vim.git
-  ignore = dirty
 [submodule "bundle/clojure"]
 	path = bundle/clojure
 	url = git://github.com/vim-scripts/VimClojure.git
