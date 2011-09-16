@@ -4,6 +4,17 @@ nmap <Leader>sic :set list!<CR>
 " As esc is to far away I would like to quit imode with jj
 inoremap jj <Esc>
 
+" Toggle AutoClose
+nmap <Leader>x <Plug>ToggleAutoCloseMappings
+
+" Align selected lines
+nmap <Leader>a :Align
+vmap <Leader>a :Align
+
+" Some mappings for rails.vim
+nmap <Leader>rr :R<CR>
+nmap <Leader>ra :A<CR>
+
 " shortcut for closing a buffer
 nmap <Leader>d :bd<CR>
 
