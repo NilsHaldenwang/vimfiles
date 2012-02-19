@@ -82,10 +82,6 @@
 	path = bundle/supertab
 	url = git://github.com/ervandew/supertab.git
   ignore = dirty
-[submodule "bundle/vim-ruby-sinatra"]
-	path = bundle/vim-ruby-sinatra
-	url = git://github.com/hallison/vim-ruby-sinatra.git
-  ignore = dirty
 [submodule "bundle/securemodelines"]
 	path = bundle/securemodelines
 	url = git://github.com/ciaranm/securemodelines.git
