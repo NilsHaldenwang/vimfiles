@@ -235,7 +235,8 @@ if has("gui_running")
         " make Mac's Option key behave as the Meta key
         set invmmta
         try
-          set transparency=5
+          set transparency=0
+          "set transparency=5
         catch
         endtry
     endif
