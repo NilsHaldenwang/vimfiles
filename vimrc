@@ -361,7 +361,7 @@ highlight SpecialKey guifg=#4a4a59
 " http://vim-latex.sourceforge.net/documentation/latex-suite/recommended-settings.html 
 let g:tex_flavor='latex'
 let g:Tex_DefaultTargetFormat='pdf'
-let g:Tex_ViewRule_pdf='gnome-open'
+let g:Tex_ViewRule_pdf='open'
 let g:Tex_CompileRule_pdf='pdflatex -shell-escape -interaction=nonstop $*'
 
 " IMPORTANT: grep will sometimes skip displaying the file name if you
@@ -374,5 +374,7 @@ let g:gist_clip_command = 'xclip -selection clipboard'
 let g:gist_detect_filetype = 1
 let g:gist_open_browser_after_post = 1
 let g:gist_browser_command = 'gnome-open %URL%'
+
+set wildignore+=coverage/**
 
 set colorcolumn=80
